@@ -9,7 +9,7 @@ const int _maxMenuItemId = 65535;
 // the id of a menu item or its index in the menu. This sets a reasonable floor
 // to distinguish between the two by assuming that no menu will have more than
 // 1024 items in it.
-const int _minMenuItemId = 10000;
+const int _minMenuItemId = 100;
 int _nextMenuItemId = _minMenuItemId;
 
 _generateMenuItemId() {
